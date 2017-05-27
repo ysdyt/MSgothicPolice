@@ -1,4 +1,4 @@
-# MSゴシック絶対許さんマン ~MS gothic Police~
+# MSゴシック絶対許さんマン *MS gothic Police*
 
 [Maker Faire Tokyo 2017](http://makezine.jp/event/mft2017/)への出店を目指して作成しています。  
 

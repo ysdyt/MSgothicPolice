@@ -1,9 +1,9 @@
-# MSゴシック絶対許さんマン *MS gothic Police*
+# MSゴシック絶対許さんマン ~MS gothic Police~
 
-[Maker Faire Tokyo 2017](http://makezine.jp/event/mft2017/)への出店を目指して作成しています。
+[Maker Faire Tokyo 2017](http://makezine.jp/event/mft2017/)への出店を目指して作成しています。  
 
 
-(クリックでYoutubeに飛びます)
+（クリックでYoutubeに飛びます）  
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1prXpTHX1e0/0.jpg)](https://www.youtube.com/watch?v=1prXpTHX1e0)
 
 ## 出展内容の紹介
@@ -25,6 +25,5 @@
 ### フォントを識別する方法
 人間でも見分けるのが難しそうなフォントを、**深層学習**という手法を使って、機械的に識別する学習モデルを作成します。  
 最終的にはフォントかるたに収録されている48種類全てを識別できるようにする予定です（只今識別精度アップを目指してモデルの改善中です）
-
 
 ちなみにロボットアームは[Dobot Magician](http://dobot.cc/dobot-magician/product-overview.html)を使用しています

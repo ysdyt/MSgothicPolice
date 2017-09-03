@@ -92,3 +92,7 @@ ENV/
 data/test/
 data/train/
 data/validation/
+
+# result dir
+result/
+

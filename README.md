@@ -20,9 +20,11 @@
 - [フォントかるた公式ページ](https://fontkaruta.wixsite.com/karuta)
 
 下の画像に映っている10種類のフォントのうち、どれが「MSゴシック」かわかりますか？
+
 ![FontKaruta](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/fontkaruta_sample.jpg)
 
 正解はこちら！
+
 ![FontKaruta_ans](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/fontkaruta_sample_ans.jpg)
 
 中央下段のカルタがMSゴシックでした！

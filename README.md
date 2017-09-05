@@ -128,7 +128,7 @@ Maker Faire参加決定から当日の様子までをまとめました
 * [これぞモノづくり！Maker Faire Tokyo 2017に初参加した感想](http://temcee.hatenablog.com/entry/maker_faire_tokyo_2017)
 * [テクノロジーの無駄遣い!?Maker Faire Tokyo2017に行ってきました!!](http://pleshe.jp/archives/2466)
 	* 「この日みた中で最もテクノロジーの無駄遣い」という最高の評価をいただきました
-* [Maker Faire Tokyo 2017 ~東８ホール~ – JH1LHVの雑記帳](http://jh1lhv.hatenablog.jp/entry/2017/08/10/212249)
+* [Maker Faire Tokyo 2017 東８ホール – JH1LHVの雑記帳](http://jh1lhv.hatenablog.jp/entry/2017/08/10/212249)
 * [頭脳集団「白金鉱業」さんの「MSゴシック絶対許さんマン」が凄かった（MFT2017展示紹介その2）](http://karaage.hatenadiary.jp/entry/2017/08/21/073000)
 * [Maker Faire Tokyo 2017レポート「ポジティブなものづくり」の魅力](http://eonet.jp/zing/articles/_4100769.html)
 

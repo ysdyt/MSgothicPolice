@@ -3,6 +3,7 @@ import os
 from keras.models import load_model, Model, Sequential
 from keras.layers import Input, Conv2D, MaxPooling2D, Activation, Flatten, Dense, Dropout
 from keras.callbacks import ModelCheckpoint, TensorBoard
+from keras.utils import plot_model
 
 from layers import SpatialPyramidPooling2D
 
@@ -88,6 +89,9 @@ class KarutaNet(object):
         self._model.compile(loss='categorical_crossentropy',
                             optimizer=self.optimizer,
                             metrics=['accuracy'])
+
+        model_fig = os.path.join(self.checkpoints_path, 'model.png')
+        plot_model(self._model, to_file=model_fig, show_shapes=True)
 
     def _build_callbacks(self):
         """Build callback objects.

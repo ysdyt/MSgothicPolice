@@ -31,10 +31,16 @@
 人間でも見分けるのが難しそうなフォントを、**深層学習**（畳み込みニューラルネットワーク）を使って機械的に識別する学習モデルを作成しました。  
 48フォント分の学習データに対して、3層の畳み込み層 + [Spatial Pyramid Pooling](https://github.com/ysdyt/MSgothicPolice/blob/master/modules/layers.py)というPooling層を使って学習しています。ネットワーク構造の詳細は[こちら](https://github.com/ysdyt/MSgothicPolice/blob/master/modules/model.py)
 
+以下がモデル全体のレイヤーとなります。以下ではinputの画像サイズが（320, 240）となっていますが、[実際のスクリプト](https://github.com/ysdyt/MSgothicPolice/blob/master/scripts/train.py)では可変サイズ（None, None）を学習するため、Predict時には任意のサイズの画像を指定することができます。
+
+![model](https://s3-ap-northeast-1.amazonaws.com/twiliowedding/model.png)
+
 ## データセットについて
 フォントかるた製作者の許可もいただき、「フォントかるた」を卓上カメラで撮影、全48フォントに対して1000枚/fontづつデータ化しました。(train:validation:test = 700:200:100)  
-データセットの半量は天地反転させた状態の画像も含む（加えて、data augumentationによってrotateした画像も含む）ため、予測時にはかるたの向きを問いません。  
+データセットの半量は180度回転させた状態の画像も含む（加えて、data augumentationによってrotateした画像も含む）ため、Predict時にはかるたの向きを問いません。  
 画像サイズは 縦:横 = 352:264 です（学習時はconvolutionしやすいように、resizeして320:240 にします）
+
+※画像データセットの公開はもろもろ問題がありそうなため、行わないつもりです。ご容赦ください m(__)m
 
 「MSゴシック」の画像データ例
 

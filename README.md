@@ -24,6 +24,7 @@
 
 正解はこちら！
 ![FontKaruta_ans](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/fontkaruta_sample_ans.jpg)
+
 中央下段のカルタがMSゴシックでした！
 
 
@@ -33,7 +34,7 @@
 
 以下がモデル全体のレイヤーとなります。以下ではinputの画像サイズが（320, 240）となっていますが、[実際のスクリプト](https://github.com/ysdyt/MSgothicPolice/blob/master/scripts/train.py)では可変サイズ（None, None）を学習するため、Predict時には任意のサイズの画像を指定することができます。
 
-![model](https://s3-ap-northeast-1.amazonaws.com/twiliowedding/model.png)
+![model](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/model.png)
 
 ## データセットについて
 フォントかるた製作者の許可もいただき、「フォントかるた」を卓上カメラで撮影、全48フォントに対して1000枚/fontづつデータ化しました。(train:validation:test = 700:200:100)  
@@ -106,7 +107,7 @@ $ python3 train.py
 実行結果ファイルは`train.py`中の`result_path`に指定したパス以下に作成されます。
 指定したパス以下に、`YYYYMMDD_HHMMSS`表記のディレクトリが作成され、その下に
 
-* `.hdf5`(重みファイル。lossが更新されるたびに作成される)
+* `hoge.hdf5`(重みファイル。lossが更新されるたびに作成される)
 * `learning_history.png`(学習推移のプロット)
 * `tensorboard`(tensorboard可視化用のデータ)
 

@@ -25,7 +25,7 @@
 
 正解はこちら！
 
-![FontKaruta_ans](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/fontkaruta_sample_ans.jpg)
+![FontKaruta_ans](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/fontkaruta_sample_ans2.jpg)
 
 中央下段のカルタがMSゴシックでした！
 

@@ -25,7 +25,7 @@ def train(argv=None):
     batch_size = 32
     steps_per_epoch = 150
     validation_steps = 100
-    epochs = 50
+    epochs = 200
     n_categories = 48
 
     # ------------ Data generator ----------- #

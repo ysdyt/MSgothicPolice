@@ -55,6 +55,11 @@ batch_size = 32, steps_per_epoch = 150, validation_steps = 100, epochs = 200 で
 
 ![learning_history](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/learning_history.png)
 
+## テストデータへの当てはまり
+各クラス100毎づつ用意したテストデータに対してpredictした結果です。  
+最高に過学習していますがとりあえずこんな感じです。
+
+![confusion_matrix](https://s3-ap-northeast-1.amazonaws.com/fontkaruta2/confusion_matrix.png)
 
 ## Grad-CAMによる分類結果可視化
 ロボットアームを動かすデモだけでなく、Grad-CAMという手法を用いることで、学習ネットワークがフォントのどこを見て（どういった特徴量を重要視して）分類を行っているのかを可視化した説明展示も行いました。Chainerによる実装をチームメンバーの [@ywara93](https://twitter.com/ywara93) が行いました。

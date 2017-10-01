@@ -177,6 +177,5 @@ if __name__ == '__main__':
                     result_dir_path,
                     class_labels=train_generator.class_indices,
                     filenames=test_generator.filenames,
-                    save_csv_name=os.path.join(result_dir_path, 'accuracy_score.csv')
-                    )
+                    save_csv_name=os.path.join(result_dir_path, 'accuracy_score.csv'))
     print('Saved confusion_matrix.png')
